@@ -10,6 +10,7 @@ header{
 
 .logo{
     max-width: 100px;
+    padding: 10px;
 }
 
 nav, #hamburger-menu {
