@@ -22,3 +22,7 @@ nav, #hamburger-menu {
     font-size: 1.5em;
     display: block;
 }
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+}
