@@ -17,6 +17,20 @@ nav, #hamburger-menu {
     display: none;
 }
 
+nav ul{
+    padding: 0px;
+}
+
+nav li{
+    display: block;
+}
+
+nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
 .hamburger-label{
     float: right;
     color: #ffffff;
