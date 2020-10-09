@@ -14,3 +14,11 @@ header{
 nav, #hamburger-menu {
     display: none;
 }
+
+.hamburger-label{
+    float: right;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 1.5em;
+    display: block;
+}
