@@ -53,4 +53,8 @@ nav li:hover{
     nav {
         display: inline-block;
     }
+
+    .hamburger-label {
+        display: none;
+    }
 }
