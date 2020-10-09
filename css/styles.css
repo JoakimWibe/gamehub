@@ -44,3 +44,13 @@ nav li:hover{
 #hamburger-menu:checked ~ nav {
     display: block;
 }
+
+@media(min-width: 600px){
+    .logo {
+        float: left;
+    }
+
+    nav {
+        display: inline-block;
+    }
+}
