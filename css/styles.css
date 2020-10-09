@@ -1,5 +1,10 @@
+html{
+
+}
+
 header{
-    background-color: rgb(9, 29, 85);
+    background-color: #119ABF;
+    min-height: 100px;
 }
 
 .logo{
