@@ -8,7 +8,7 @@ nav{
 
 #hamburger-menu{
     display: none;
-    color: #ffffff;
+    background-color: #ffffff;
 }
 
 #hamburger-menu:checked ~ nav {
