@@ -4,13 +4,14 @@ header{
 
 nav{
     display: none;
-    color: #ffffff;
 }
 
 #hamburger-menu{
     display: none;
+    color: #ffffff;
 }
 
 #hamburger-menu:checked ~ nav {
     display: block;
+    color: #ffffff;
 }
