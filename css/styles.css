@@ -29,6 +29,10 @@ nav li{
     display: block;
 }
 
+nav li:hover{
+    font-weight: bold;
+}
+
 .hamburger-label{
     float: right;
     color: #ffffff;
