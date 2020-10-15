@@ -70,11 +70,11 @@ nav li:hover{
     }
 
     ul {
-        display: block;
+        display: flex;
     }
 
     li {
-        display: inline-block;
+        display: block;
         padding: 19% 40px;
     }
 }
