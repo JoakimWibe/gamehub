@@ -19,6 +19,7 @@ header{
 
 nav, #hamburger-menu {
     display: none;
+    padding-top: 50px;
 }
 
 nav ul{
