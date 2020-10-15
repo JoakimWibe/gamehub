@@ -22,12 +22,11 @@ nav, #hamburger-menu {
 }
 
 nav ul{
-    padding: 0px;
+    padding-top: 50px;
 }
 
 nav li{
     display: flex;
-    justify-content: right;
     text-decoration: none;
     color: #FFFFFF;
     padding: 10px;
