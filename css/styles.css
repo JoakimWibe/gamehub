@@ -72,3 +72,10 @@ nav li:hover{
         padding: 19% 40px;
     }
 }
+
+.banner{
+    background-image: url('../background_home.png');
+    min-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
