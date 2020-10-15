@@ -13,7 +13,6 @@ header{
 }
 
 .logo{
-    max-width: 100px;
     padding: 20px;
 }
 
@@ -46,7 +45,7 @@ nav li:hover{
 }
 
 #hamburger-menu:checked ~ nav {
-    display: block;
+    display: flex;
 }
 
 @media(min-width: 600px){
