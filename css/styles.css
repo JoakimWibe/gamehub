@@ -26,11 +26,10 @@ nav ul{
 }
 
 nav li{
-    display: block;
+    display: flex;
     text-decoration: none;
     color: #FFFFFF;
     padding: 10px;
-    display: block;
 }
 
 nav li:hover{
