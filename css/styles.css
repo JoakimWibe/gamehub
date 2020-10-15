@@ -73,9 +73,3 @@ nav li:hover{
     }
 }
 
-.banner{
-    background-image: url('../background_home.png');
-    min-height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
