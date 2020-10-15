@@ -23,6 +23,7 @@ nav, #hamburger-menu {
 
 nav ul{
     padding: 0px;
+}
 
 nav li{
     display: flex;
