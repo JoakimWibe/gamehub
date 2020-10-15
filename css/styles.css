@@ -45,7 +45,7 @@ nav li:hover{
 }
 
 #hamburger-menu:checked ~ nav {
-    display: flex;
+    display: inline-block;
 }
 
 @media(min-width: 600px){
