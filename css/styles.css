@@ -62,7 +62,7 @@ nav li:hover{
     }
 
     nav {
-        display: block;
+        display: inline-block;
     }
 
     .hamburger-label {
