@@ -28,6 +28,7 @@ nav ul{
 
 nav li{
     display: flex;
+    font-family: 'russo one', sans-serif;
     text-decoration: none;
     color: #FFFFFF;
     padding: 10px;
