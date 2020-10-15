@@ -70,7 +70,7 @@ nav li:hover{
     }
 
     ul {
-        display: inline-block;
+        display: block;
     }
 
     li {
