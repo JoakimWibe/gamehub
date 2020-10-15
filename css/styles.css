@@ -27,7 +27,7 @@ nav ul{
 
 nav li{
     display: flex;
-    justify-self: end;
+    justify-content: right;
     text-decoration: none;
     color: #FFFFFF;
     padding: 10px;
