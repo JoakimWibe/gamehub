@@ -30,9 +30,3 @@ footer{grid-area: footer;}
     padding-top: 150px;
     text-align: center;
 }
-
-@media (min-width: 40em) {
-    body {
-        grid-template-columns: 1fr 24em;
-    }
-}
