@@ -30,3 +30,11 @@ footer{grid-area: footer;}
     padding-top: 150px;
     text-align: center;
 }
+
+.register{
+    padding-top: 50px;
+}
+
+.my-account{
+    padding-top: 50px;
+}
