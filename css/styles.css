@@ -18,6 +18,18 @@ h1{
     color: #f2f2f2;
 }
 
+h2{
+    font-family: 'russo one', sans-serif;
+    font-size: 32px;
+    color: #1B203D;
+}
+
+p{
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: #1B203D;
+}
+
 .logo{
     max-width: 100px;
     padding: 20px;
