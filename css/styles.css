@@ -22,12 +22,14 @@ h2{
     font-family: 'russo one', sans-serif;
     font-size: 32px;
     color: #1B203D;
+    padding: 10px;
 }
 
 p{
     font-family: 'roboto', Arial, Helvetica, sans-serif;
     font-size: 28px;
     color: #1B203D;
+    padding: 10px;
 }
 
 .logo{
