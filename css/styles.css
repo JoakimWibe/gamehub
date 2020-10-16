@@ -12,6 +12,14 @@ header{
     min-height: 100px;
 }
 
+footer{
+    background: #1B203D;
+}
+
+.footer-text{
+    color: #f2f2f2;
+}
+
 h1{
     font-family: 'russo one', sans-serif;
     font-size: 48px;
