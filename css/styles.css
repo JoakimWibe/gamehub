@@ -14,6 +14,7 @@ header{
 
 footer{
     background: #1B203D;
+    max-height: 100px;
 }
 
 .footer-text{
