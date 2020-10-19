@@ -20,8 +20,6 @@ footer{grid-area: footer;}
 .banner{
     background-image: url('../images/background_home.png');
     min-height: 400px;
-    position: relative;
-    top: 100px;
     background-size: cover;
     background-repeat: no-repeat;
 }
