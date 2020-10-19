@@ -17,7 +17,7 @@ header{
 
 footer{
     background: #1B203D;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: 3rem;
