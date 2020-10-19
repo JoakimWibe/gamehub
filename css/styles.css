@@ -85,7 +85,7 @@ nav li:hover{
     display: block;
 }
 
-@media(min-width: 600px){
+@media(min-width: 599px){
     .logo {
         float: left;
     }
