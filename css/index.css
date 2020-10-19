@@ -34,3 +34,7 @@ footer{grid-area: footer;}
 h2{
     text-align: center;
 }
+
+.aside{
+    padding-top: 12em;
+}
