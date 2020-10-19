@@ -9,6 +9,9 @@ body{
 
 header{
     background-color: #1B203D;
+    position: fixed;
+    top: 0;
+    width: 100%;
     min-height: 100px;
 }
 
