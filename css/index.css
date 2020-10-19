@@ -19,6 +19,7 @@ footer{grid-area: footer;}
 
 .banner{
     background-image: url('../images/background_home.png');
+    margin-top: 100px;
     min-height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -45,3 +46,4 @@ main{
     flex-direction: column;
     padding: 40px;
 }
+
