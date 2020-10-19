@@ -28,7 +28,7 @@ footer{grid-area: footer;}
 .headline{
     display: flex;
     justify-content: center;
-    padding-top: 150px;
+    padding-top: 160px;
     text-align: center;
 }
 
