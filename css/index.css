@@ -34,7 +34,10 @@ footer{grid-area: footer;}
 h2{
     text-align: center;
     padding-top: 2em;
-    padding-left: 4em;
+}
+
+aside{
+    max-width: 300px;
 }
 
 main{
