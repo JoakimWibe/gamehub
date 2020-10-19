@@ -38,5 +38,5 @@ h2{
 
 main{
     padding-top: 8em;
-    grid-column: auto;
+    display: block;
 }
