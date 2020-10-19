@@ -60,4 +60,8 @@ main{
         'footer footer'
         ;
     }
+
+    .headline {
+        padding-top: 1em;
+    }
 }
