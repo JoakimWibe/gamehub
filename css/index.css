@@ -81,7 +81,7 @@ main{
 
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) (max-width:768px) {
     body {
         display: grid;
         grid-gap: 0;
