@@ -52,6 +52,7 @@ main{
     font-size: 28px;
     background-color: #1B203D;
     padding: 10px;
+    border-radius: 5%;
 }
 
 @media (max-width: 600px) {
