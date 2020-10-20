@@ -34,10 +34,11 @@ footer{grid-area: footer;}
 
 h2{
     text-align: center;
+    margin-top: 2em;
 }
 
 main{
-    padding-top: 8em;
+    margin-top: 8em;
 }
 
 .products{
