@@ -97,4 +97,8 @@ main{
         padding-top: 1em;
     }
 
+    main {
+        padding-top: 0em;
+    }
+
 }
