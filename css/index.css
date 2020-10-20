@@ -68,4 +68,8 @@ main{
     main {
         padding-top: 0em;
     }
+    
+    p {
+        font-size: 22px;
+    }
 }
