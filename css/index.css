@@ -41,7 +41,7 @@ main{
     padding-top: 8em;
 }
 
-.account{
+.products{
     display: flex;
     flex-direction: column;
     padding: 40px;
