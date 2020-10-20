@@ -55,8 +55,8 @@ main{
         grid-template-areas: 
         'header header'
         'section section'
-        'main main'
         'aside aside'
+        'main main'
         'footer footer'
         ;
     }
@@ -78,11 +78,6 @@ main{
         font-size: 22px;
     }
 
-    .products{
-        display: flex;
-        flex-direction: row;
-        padding: 40px;
-    }
 
 }
 
@@ -112,6 +107,7 @@ main{
         display: flex;
         flex-direction: row;
         padding: 40px;
+        justify-content: center;
     }
 
 }
