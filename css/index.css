@@ -78,3 +78,18 @@ main{
         font-size: 22px;
     }
 }
+
+@media (max-width: 768px) {
+    body {
+        display: grid;
+        grid-gap: 0;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-areas: 
+        'header header'
+        'section section'
+        'aside aside'
+        'main main'
+        'footer footer'
+        ;
+    }
+}
