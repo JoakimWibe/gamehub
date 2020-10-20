@@ -47,6 +47,12 @@ main{
     padding: 40px;
 }
 
+.register{
+    font-family: 'russon one', sans-serif;
+    font-size: 28px;
+    background-color: #1B203D;
+}
+
 @media (max-width: 600px) {
     body {
         display: grid;
