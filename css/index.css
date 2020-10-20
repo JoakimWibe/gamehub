@@ -55,8 +55,8 @@ main{
         grid-template-areas: 
         'header header'
         'section section'
-        'aside aside'
         'main main'
+        'aside aside'
         'footer footer'
         ;
     }
@@ -77,6 +77,13 @@ main{
     p {
         font-size: 22px;
     }
+
+    .products{
+        display: flex;
+        flex-direction: row;
+        padding: 40px;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -87,8 +94,8 @@ main{
         grid-template-areas: 
         'header header'
         'section section'
-        'aside aside'
         'main main'
+        'aside aside'
         'footer footer'
         ;
     }
@@ -99,6 +106,12 @@ main{
 
     main {
         padding-top: 0em;
+    }
+
+    .products{
+        display: flex;
+        flex-direction: row;
+        padding: 40px;
     }
 
 }
