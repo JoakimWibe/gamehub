@@ -112,7 +112,7 @@ main{
         font-size: 22px;
     }
 
-    products {
+    .products {
         display: flex;
         flex-direction: column;
         justify-content: center;
