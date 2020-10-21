@@ -73,6 +73,13 @@ main{
     text-align: center;
 }
 
+.buy-games:hover{
+    background-color: #f2f2f2;
+    border: 1px;
+    border-color: #030D8C;
+    color: #030D8C;
+}
+
 @media (max-width: 600px) {
     body {
         display: grid;
