@@ -112,12 +112,6 @@ main{
         font-size: 22px;
     }
 
-    .products {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
 }
 
 @media (max-width:768px) {
@@ -141,13 +135,5 @@ main{
     main {
         margin-top: 0;
     }
-
-    .products {
-        display: flex;
-        flex-direction: row;
-        margin: 10px;
-        justify-content: center;
-    }
-
 
 }
