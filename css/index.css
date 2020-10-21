@@ -74,10 +74,7 @@ main{
 }
 
 .buy-games:hover{
-    background-color: #f2f2f2;
-    border: 1px;
-    border-color: #030D8C;
-    color: #030D8C;
+    background-color: #1B203D;
 }
 
 @media (max-width: 600px) {
