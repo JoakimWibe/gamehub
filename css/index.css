@@ -56,7 +56,7 @@ main{
     text-decoration: none;
     font-size: 32px;
     text-align: center;
-    vertical-align: central;
+    vertical-align: auto;
 }
 
 @media (max-width: 600px) {
