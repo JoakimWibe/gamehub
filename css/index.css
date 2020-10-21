@@ -77,6 +77,10 @@ main{
     background-color: #1B203D;
 }
 
+.sell-games:hover{
+    background-color: #1B203D;
+}
+
 @media (max-width: 600px) {
     body {
         display: grid;
