@@ -44,8 +44,7 @@ main{
 .products{
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
-    padding: 40px;
+    margin-top: 30px;
     gap: 20px;
 }
 
