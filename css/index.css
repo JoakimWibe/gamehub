@@ -76,7 +76,8 @@ main{
 }
 
 .buy-games:hover{
-    background-color: #1B203D;
+    background-color: #f2f2f2;
+    color: #030D8C;
 }
 
 .sell-games:hover{
