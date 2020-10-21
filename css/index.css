@@ -47,6 +47,14 @@ main{
     padding: 40px;
 }
 
+.buy-games{
+    background-color: #030D8C;
+    width: 260px;
+    height: 68px;
+    color: #f2f2f2;
+    font-family: 'russo one', sans-serif;
+}
+
 @media (max-width: 600px) {
     body {
         display: grid;
