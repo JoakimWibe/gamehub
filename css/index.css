@@ -112,12 +112,6 @@ main{
         font-size: 22px;
     }
 
-    .products{
-        display: flex;
-        justify-content: center;
-        padding: 0px;
-    }
-
 }
 
 @media (max-width:768px) {
