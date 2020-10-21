@@ -59,6 +59,8 @@ main{
     text-decoration: none;
     font-size: 32px;
     text-align: center;
+    border-width: 1px;
+    border-color: #030D8C;
 }
 
 .sell-games{
