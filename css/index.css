@@ -73,6 +73,7 @@ main{
     text-decoration: none;
     font-size: 32px;
     text-align: center;
+    border: 3px solid #030D8C;
     border-radius: 15px;
 }
 
@@ -83,7 +84,9 @@ main{
 }
 
 .sell-games:hover{
-    background-color: #1B203D;
+    background-color: #f2f2f2;
+    color: #030D8C;
+    border: 3px solid #030D8C;
 }
 
 @media (max-width: 600px) {
