@@ -136,5 +136,10 @@ main{
         margin-top: 0;
     }
 
+    .products {
+        display: flex;
+        flex-direction: row;
+    }
+
 
 }
