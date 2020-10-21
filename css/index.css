@@ -59,7 +59,7 @@ main{
     text-decoration: none;
     font-size: 32px;
     text-align: center;
-    border-radius: 20px; 
+    border-radius: 15px; 
 }
 
 .sell-games{
@@ -72,7 +72,7 @@ main{
     text-decoration: none;
     font-size: 32px;
     text-align: center;
-    border-radius: 50px;
+    border-radius: 15px;
 }
 
 .buy-games:hover{
