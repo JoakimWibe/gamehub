@@ -112,6 +112,12 @@ main{
         font-size: 22px;
     }
 
+    products {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
 }
 
 @media (max-width:768px) {
