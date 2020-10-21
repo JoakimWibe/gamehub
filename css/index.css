@@ -139,7 +139,7 @@ main{
     .products {
         display: flex;
         flex-direction: row;
-        margin-top: 0px;
+        margin: 10px;
         justify-content: center;
     }
 
