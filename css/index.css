@@ -56,7 +56,7 @@ main{
     text-decoration: none;
     font-size: 32px;
     text-align: center;
-    padding: 0px;
+    padding: 10px 10px
 }
 
 @media (max-width: 600px) {
