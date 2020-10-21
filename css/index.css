@@ -53,6 +53,10 @@ main{
     height: 68px;
     color: #f2f2f2;
     font-family: 'russo one', sans-serif;
+    text-decoration: none;
+    font-size: 32px;
+    text-align: center;
+    
 }
 
 @media (max-width: 600px) {
