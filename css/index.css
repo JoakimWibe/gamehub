@@ -61,6 +61,8 @@ main{
 
 .sell-games{
     background-color: #030D8C;
+    width: 260px;
+    height: auto;
 }
 
 @media (max-width: 600px) {
