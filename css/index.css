@@ -139,6 +139,8 @@ main{
     .products {
         display: flex;
         flex-direction: row;
+        margin-top: 0px;
+        justify-content: center;
     }
 
 
