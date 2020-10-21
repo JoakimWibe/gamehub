@@ -50,13 +50,13 @@ main{
 .buy-games{
     background-color: #030D8C;
     width: 260px;
-    height: 68px;
+    height: auto;
+    padding: 3px 0;
     color: #f2f2f2;
     font-family: 'russo one', sans-serif;
     text-decoration: none;
     font-size: 32px;
     text-align: center;
-    vertical-align: auto;
 }
 
 @media (max-width: 600px) {
