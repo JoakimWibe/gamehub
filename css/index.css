@@ -49,7 +49,7 @@ main{
     gap: 20px;
 }
 
-.buy-games{
+.buy-games, .sell-games{
     background-color: #030D8C;
     width: 260px;
     height: auto;
@@ -63,27 +63,8 @@ main{
     border-radius: 15px; 
 }
 
-.sell-games{
-    background-color: #030D8C;
-    width: 260px;
-    height: auto;
-    padding: 3px 0;
-    color: #f2f2f2;
-    font-family: 'russo one', sans-serif;
-    text-decoration: none;
-    font-size: 32px;
-    text-align: center;
-    border: 3px solid #030D8C;
-    border-radius: 15px;
-}
 
-.buy-games:hover{
-    background-color: #f2f2f2;
-    color: #030D8C;
-    border: 3px solid #030D8C;
-}
-
-.sell-games:hover{
+.buy-games:hover, .sell-games:hover{
     background-color: #f2f2f2;
     color: #030D8C;
     border: 3px solid #030D8C;
