@@ -30,7 +30,13 @@ h2{
 }
 
 @media (max-width: 600px) {
+   
     main{
         display: none;
     }
+
+    section{
+        margin-top: 150px;
+    }
+
 }
