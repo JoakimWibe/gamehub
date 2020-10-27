@@ -107,6 +107,11 @@ main{
         font-size: 22px;
     }
 
+    .footer {
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
 }
 
 @media (max-width:768px) {
