@@ -9,5 +9,8 @@ form{
     font-family: 'roboto', Verdana, Tahoma, sans-serif;
     font-size: 28px;
     color: #1B203D;
+}
+
+fieldset{
     border: none;
 }
