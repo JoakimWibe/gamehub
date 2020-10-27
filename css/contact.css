@@ -20,9 +20,7 @@ label{
 }
 
 #message{
-    overflow: scroll;
-    height: 200px;
-    resize: none;
+    width: 300px;
 }
 
 .submit{
