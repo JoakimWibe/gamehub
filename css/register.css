@@ -50,3 +50,9 @@ label{
     border: 3px solid #030D8C;
     border-radius: 15px; 
 }
+
+.submit:hover{
+    background-color: #f2f2f2;
+    color: #030D8C;
+    border: 3px solid #030D8C;
+}
