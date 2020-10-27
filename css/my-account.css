@@ -5,18 +5,15 @@ body {
     grid-template-areas: 
     'header header'
     'main main'
+    'section section'
     'footer footer'
     ;
 }
 
 header{grid-area: header;}
 main{grid-area: main;}
+section{grid-area: section;}
 footer{grid-area: footer;}
-
-
-main{
-    margin: auto;
-}
 
 #profilepic{
     border-radius: 25px;
