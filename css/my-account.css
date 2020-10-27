@@ -34,3 +34,11 @@ h3{
 #profilepic{
     border-radius: 25px;
 }
+
+@media (max-width: 600px) {
+
+    main{
+        margin-top: 0px;
+    }
+
+}
