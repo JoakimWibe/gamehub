@@ -20,8 +20,8 @@ label{
 }
 
 #message{
-    overflow-y: scroll;
-    height: 100px;
+    overflow: scroll;
+    height: 200px;
     resize: none;
 }
 
