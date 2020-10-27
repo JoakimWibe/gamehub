@@ -38,10 +38,10 @@ label{
 
 .submit{
     background-color: #030D8C;
-    width: 400px;
+    width: 260px;
     height: auto;
-    margin: 10px;
-    padding: 3px 0;
+    margin: auto;
+    padding: 3px 20px;
     color: #f2f2f2;
     font-family: 'russo one', sans-serif;
     text-decoration: none;
