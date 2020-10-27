@@ -5,7 +5,8 @@ form{
 }
 
 .form__input{
-    display: block;    
+    display: block;
+    font-size: 28px;    
 }
 
 fieldset{
