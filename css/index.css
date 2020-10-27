@@ -131,9 +131,8 @@ main{
         margin-top: 0;
     }
 
-    .products {
+    .buy-games, .sell-games {
         margin: auto;
-        padding: 0px;
     }
 
 }
