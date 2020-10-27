@@ -132,7 +132,7 @@ main{
     }
 
     .products {
-        text-align: center;
+        margin: auto;
     }
 
 }
