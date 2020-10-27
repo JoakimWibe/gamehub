@@ -15,6 +15,12 @@ main{grid-area: main;}
 section{grid-area: section;}
 footer{grid-area: footer;}
 
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
 #profilepic{
     border-radius: 25px;
 }
