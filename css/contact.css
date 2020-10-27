@@ -22,6 +22,7 @@ label{
 #message{
     font-size: 28px;
     font-family: 'roboto', Verdana, Geneva, Tahoma, sans-serif;
+    width: 350px;
 }
 
 .submit{
