@@ -19,10 +19,6 @@ label{
     font-family: 'russo one';
 }
 
-#message{
-    min-height: 400px;
-}
-
 .submit{
     background-color: #030D8C;
     width: 260px;
