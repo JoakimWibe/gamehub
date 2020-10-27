@@ -70,3 +70,15 @@ section{
     color: #030D8C;
     border: 3px solid #030D8C;
 }
+
+@media (max-width: 600px) {
+    
+    .form__input{
+        width: 300px;
+    }
+
+    #message{
+        width: 300px;
+    }
+
+}
