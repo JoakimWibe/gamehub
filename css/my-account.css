@@ -16,6 +16,7 @@ footer{grid-area: footer;}
 
 main{
     margin-top: 200px;
+    justify-content: center;
 }
 
 #profilepic{
