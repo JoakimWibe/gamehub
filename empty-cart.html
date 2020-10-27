@@ -27,6 +27,19 @@
             </nav> 
         </header>
         <main>
+            <h2>Checkout</h2>
+            <p>Your cart is empty</p>
+            <form action="empty-cart.php" method="GET"></form>
+            <h3>Delivery information</h3>
+            <fieldset>
+                <label for="address">Address</label>
+                <input type="address" name="address" id="address" class="form__input">
+                <label for="zip-code">Zip code</label>
+                <input type="number" name="zip-code" id="zip-code" class="form__input">
+            </fieldset>
+            <h3>Payment method</h3> 
+            <h3>Total: 0$</h3> 
+            <input type="submit" value="Order Now">
         </main>
         <footer>
             <p class="footer-text">41212546 Gamehub@gmail.com</p>
