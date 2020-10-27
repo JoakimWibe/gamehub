@@ -19,8 +19,10 @@ label{
     font-family: 'russo one';
 }
 
-#message{
-    overflow: scroll;
+textarea{
+    overflow-y: scroll;
+    height: 100px;
+    resize: none;
 }
 
 .submit{
