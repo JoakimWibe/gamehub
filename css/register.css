@@ -2,7 +2,6 @@ form{
     display: flex;
     justify-content: center;
     margin-top: 300px;
-    outline: none;
 }
 
 .form__input{
@@ -10,4 +9,5 @@ form{
     font-family: 'roboto', Verdana, Tahoma, sans-serif;
     font-size: 28px;
     color: #1B203D;
+    outline: none;
 }
