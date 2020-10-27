@@ -19,7 +19,7 @@ label{
     font-family: 'russo one';
 }
 
-textarea{
+#message{
     overflow-y: scroll;
     height: 100px;
     resize: none;
