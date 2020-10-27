@@ -27,6 +27,10 @@ section{
     text-align: center;
 }
 
+h3{
+    margin: 10px;
+}
+
 #profilepic{
     border-radius: 25px;
 }
