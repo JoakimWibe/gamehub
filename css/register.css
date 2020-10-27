@@ -2,7 +2,7 @@ form{
     display: flex;
     justify-content: center;
     margin-top: 300px;
-    border: none;
+    outline: none;
 }
 
 .form__input{
