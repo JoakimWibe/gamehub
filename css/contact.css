@@ -44,6 +44,12 @@ label{
     width: 500px;
 }
 
+section{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
 .submit{
     background-color: #030D8C;
     width: 260px;
