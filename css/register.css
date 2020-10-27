@@ -62,3 +62,10 @@ section{
     color: #030D8C;
     border: 3px solid #030D8C;
 }
+
+@media (max-width: 600px) {
+    
+    form{
+        margin-top: 200px;
+    }    
+}
