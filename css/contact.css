@@ -19,7 +19,7 @@ footer{grid-area: footer;}
 form{
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 250px;
 }
 
 .form__input{
