@@ -28,3 +28,9 @@ h2{
     text-align: center;
     color: #030D8C;
 }
+
+@media (max-width: 600px) {
+    main{
+        display: none;
+    }
+}
