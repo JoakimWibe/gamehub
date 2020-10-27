@@ -131,4 +131,9 @@ main{
         margin-top: 0;
     }
 
+    .products {
+        display: flex;
+        justify-content: center;
+    }
+
 }
