@@ -133,6 +133,7 @@ main{
 
     .products {
         margin: auto;
+        padding: 0px;
     }
 
 }
