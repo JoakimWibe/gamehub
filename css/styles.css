@@ -65,10 +65,13 @@ nav ul{
 
 nav li{
     display: flex;
+    padding: 10px;
+}
+
+nav a{
     font-family: 'russo one', sans-serif;
     text-decoration: none;
     color: #f2f2f2;
-    padding: 10px;
 }
 
 nav li:hover{
