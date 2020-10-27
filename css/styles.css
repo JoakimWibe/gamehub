@@ -42,6 +42,12 @@ h2{
     padding: 10px;
 }
 
+h3{
+    font-family: 'russo one', sans-serif;
+    font-size: 28px;
+    color: #1B203D;
+}
+
 p{
     font-family: 'roboto', Arial, Helvetica, sans-serif;
     font-size: 28px;
