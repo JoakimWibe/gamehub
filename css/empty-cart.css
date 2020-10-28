@@ -1,3 +1,9 @@
+header{grid-area: header;}
+main{grid-area: main;}
+.delivery{grid-area: delivery;}
+.summary{grid-area: summary;}
+footer{grid-area: footer;}
+
 body {
     display: grid;
     grid-gap: 0;
@@ -5,17 +11,11 @@ body {
     grid-template-areas: 
     'header header'
     'main main'
-    '.delivery .delivery'
-    '.summary .summary'
+    'delivery delivery'
+    'summary summary'
     'footer footer'
     ;
 }
-
-header{grid-area: header;}
-main{grid-area: main;}
-.delivery{grid-area: delivery;}
-.summary{grid-area: summary;}
-footer{grid-area: footer;}
 
 main{
     margin-top: 100px;
