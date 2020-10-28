@@ -35,6 +35,10 @@ h3{
     padding: 10px;
 }
 
+.mastercard:hover, .visa:hover, .paypal:hover{
+    border: solid 2px #030D8C;
+}
+
 main{
     border-top: #1B203D 1px solid;
     border-bottom: #1B203D 1px solid;
