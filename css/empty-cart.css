@@ -109,6 +109,7 @@ label{
     .order-now{
         display: flex;
         justify-content: center;
+        text-align: center;
     }
 
 }
