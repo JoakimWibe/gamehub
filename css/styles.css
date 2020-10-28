@@ -94,7 +94,7 @@ nav a:hover{
     display: block;
 }
 
-@media(min-width: 600px){
+@media(min-width: 700px){
     .logo {
         float: left;
     }
