@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+    <head>
+        <title>sell your games</title>
+        <meta name="description" content="this is the sell games page">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/sell-games.css" rel="stylesheet">
+    </head> 
+    <body>
+        <header>
+            <img src="images/logo.png" alt="logo" class="logo">
+            <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="hamburger-menu"> 
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="my-account.html">My account</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="empty-cart.html">Shopping cart</a></li>
+                </ul>
+            </nav> 
+        </header>
+        <main>
+            <form action="register.php" method="GET">
+                <fieldset>
+                    <label for="username">Title of the game:</label>
+                    <input type="text" name="title" id="title" class="form__input">
+                    <label for="price">Price:</label>
+                    <input type="number" name="price" id="price" class="form__input">
+                    <label for="condition">Condition:</label>
+                    <input type="text" name="condition" id="condition" class="form__input">
+                </fieldset>
+            </form>
+        <section>
+            <a href="sell-confirmed.html" class="submit">SUBMIT</a>
+        </section>    
+        </main>
+        <footer>
+            <p class="footer-text">41212546 Gamehub@gmail.com</p>
+        </footer>
+    </body>
+</html>    
