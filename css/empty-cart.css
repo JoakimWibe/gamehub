@@ -28,8 +28,8 @@ h2{
 }
 
 main{
-    border-top: #1B203D 2px solid;
-    border-bottom: #1B203D 2px solid;
+    border-top: #1B203D 1px solid;
+    border-bottom: #1B203D 1px solid;
     min-height: 300px;
 }
 
