@@ -116,5 +116,9 @@ nav a:hover{
         padding: 19% 40px;
     }
     
+    footer{
+        display: none;
+    }
+
 }
 
