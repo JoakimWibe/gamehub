@@ -31,3 +31,13 @@ h2{
     display: block;
     font-size: 28px; 
 }
+
+fieldset{
+    border: none;
+}
+
+label{
+    font-size: 28px;
+    color: #1B203D;
+    font-family: 'russo one';
+}
