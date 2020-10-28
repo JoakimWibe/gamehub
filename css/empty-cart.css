@@ -33,6 +33,10 @@ main{
     min-height: 300px;
 }
 
+.empty-cart{
+    margin-top: 150px;
+}
+
 form{
     margin: 10px;
 }
