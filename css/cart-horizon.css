@@ -1,0 +1,110 @@
+header{grid-area: header;}
+.heading{grid-area: heading;}
+main{grid-area: main;}
+.delivery{grid-area: delivery;}
+.summary{grid-area: summary;}
+footer{grid-area: footer;}
+
+body {
+    display: grid;
+    grid-gap: 0;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-areas: 
+    'header header'
+    'heading heading'
+    'main main'
+    'delivery delivery'
+    'summary summary'
+    'footer footer'
+    ;
+}
+
+.heading{
+    margin-top: 200px;
+}
+
+h2{
+    color: #030D8C;
+}
+
+h3{
+    padding: 10px;
+}
+
+.total{
+    margin-bottom: 10px;
+}
+
+.mastercard, .visa, .paypal{
+    padding: 10px;
+    width: 70px;
+    height: 60px;
+}
+
+main{
+    border-top: #1B203D 1px solid;
+    border-bottom: #1B203D 1px solid;
+    min-height: 200px;
+}
+
+.empty-cart{
+    margin-top: 75px;
+}
+
+form{
+    margin: 10px;
+}
+
+.form__input{
+    display: block;
+    font-size: 28px;
+}
+
+fieldset{
+    border: none;
+    padding: 10px;
+}
+
+label{
+    font-size: 28px;
+    color: #1B203D;
+    font-family: 'roboto', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.order-now{
+    background-color: #030D8C;
+    width: 260px;
+    height: auto;
+    margin: 10px;
+    padding: 3px 10px;
+    color: #f2f2f2;
+    font-family: 'russo one', sans-serif;
+    text-decoration: none;
+    font-size: 28px;
+    text-align: center;
+    border: 3px solid #030D8C;
+    border-radius: 15px; 
+}
+
+.order-now:hover{
+    background-color: #f2f2f2;
+    color: #030D8C;
+    border: 3px solid #030D8C;
+}
+
+@media (max-width: 600px) {
+
+    .heading{
+        margin-top: 100px;
+    }
+
+    label{
+        font-size: 22px;
+    }
+
+    p{
+        font-size: 22px;
+    }
+
+
+}
