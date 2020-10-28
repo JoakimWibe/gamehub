@@ -23,7 +23,9 @@ form{
 }
 
 .form__input{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-size: 28px;    
 }
 
