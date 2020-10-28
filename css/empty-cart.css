@@ -21,6 +21,8 @@ body {
 
 .heading{
     margin-top: 100px;
+    display: flex;
+    justify-content: center;
 }
 
 h2{
