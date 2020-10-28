@@ -26,3 +26,8 @@ body {
 h2{
     color: #030D8C;
 }
+
+.form__input{
+    display: block;
+    font-size: 28px; 
+}
