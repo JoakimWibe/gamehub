@@ -36,7 +36,7 @@ h3{
 }
 
 .mastercard:hover, .visa:hover, .paypal:hover{
-    border: solid 2px #030D8C;
+    color: #030D8C;
 }
 
 main{
