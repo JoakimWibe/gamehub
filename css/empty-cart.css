@@ -20,14 +20,13 @@ body {
 }
 
 .heading{
-    margin-top: 100px;
+    margin-top: 150px;
     display: flex;
     justify-content: center;
 }
 
 h2{
     color: #030D8C;
-    margin-top: 50px;
 }
 
 h3{
