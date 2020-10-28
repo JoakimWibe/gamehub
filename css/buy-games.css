@@ -30,3 +30,9 @@ h2{
 .horizon, .fifa{
     border-radius: 20px;
 }
+
+.fifa-section, .horizon-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
