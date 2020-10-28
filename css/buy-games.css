@@ -36,4 +36,5 @@ h2{
 .fifa-section, .horizon-section{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
