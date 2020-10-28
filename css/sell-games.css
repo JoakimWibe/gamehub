@@ -20,7 +20,6 @@ form{
     display: flex;
     justify-content: center;
     margin-top: 300px;
-    margin-bottom: 20px;
 }
 
 .form__input{
@@ -67,6 +66,7 @@ section{
 
 #upload-file{
     font-family: 'roboto', Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 600px) {
