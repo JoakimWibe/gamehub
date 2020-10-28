@@ -28,7 +28,9 @@ h2{
 }
 
 main{
-    border: #1B203D 2px solid;
+    border-top: #1B203D 2px solid;
+    border-bottom: #1B203D 2px solid;
+    padding: 40px;
 }
 
 .form__input{
