@@ -26,3 +26,7 @@ h2{
     color: #030D8C;
     text-align: center;
 }
+
+.horizon, .fifa{
+    border-radius: 20px;
+}
