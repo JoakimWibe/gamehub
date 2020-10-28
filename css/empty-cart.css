@@ -31,11 +31,14 @@ h3{
     padding: 10px;
 }
 
+.total{
+    margin-bottom: 10px;
+}
+
 .mastercard, .visa, .paypal{
     padding: 10px;
     width: 70px;
     height: 60px;
-    margin-bottom: 10px;
 }
 
 main{
