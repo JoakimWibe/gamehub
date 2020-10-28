@@ -77,4 +77,9 @@ section{
     p{
         font-size: 22px;
     }
+
+    .form__input{
+        width: 20px;
+    }
+
 }
