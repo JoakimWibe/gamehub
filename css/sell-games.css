@@ -64,6 +64,11 @@ section{
     border: 3px solid #030D8C;
 }
 
+#upload-files{
+    font-size: 28px;
+    font-family: 'roboto', Verdana, Geneva, Tahoma, sans-serif;
+}
+
 @media (max-width: 600px) {
     
     form{
