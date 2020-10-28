@@ -27,6 +27,10 @@ h2{
     color: #030D8C;
 }
 
+h3{
+    padding: 10px;
+}
+
 main{
     border-top: #1B203D 1px solid;
     border-bottom: #1B203D 1px solid;
