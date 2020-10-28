@@ -3,6 +3,7 @@ header{grid-area: header;}
 main{grid-area: main;}
 .delivery{grid-area: delivery;}
 .summary{grid-area: summary;}
+footer{grid-area: footer;}
 
 body {
     display: grid;
@@ -14,6 +15,7 @@ body {
     'main main'
     'delivery delivery'
     'summary summary'
+    'footer footer'
     ;
 }
 
