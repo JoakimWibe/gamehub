@@ -48,6 +48,7 @@ form{
 
 fieldset{
     border: none;
+    padding: 10px;
 }
 
 label{
