@@ -16,7 +16,7 @@ header{
 }
 
 footer{
-    position: sticky;
+    position: fixed;
     bottom: 0;
     overflow: hidden;
     background: #1B203D;
