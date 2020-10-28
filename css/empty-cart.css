@@ -31,6 +31,9 @@ h3{
     padding: 10px;
 }
 
+.mastercard, .visa, .paypal{
+    padding: 10px;
+}
 
 main{
     border-top: #1B203D 1px solid;
