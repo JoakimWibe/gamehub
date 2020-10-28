@@ -9,7 +9,7 @@ body {
     grid-template-rows: auto auto auto auto;
     grid-template-areas: 
     'header header'
-    'browse-used browse-new'
+    'browse-new browse-used'
     'footer footer'
     ;
 }
