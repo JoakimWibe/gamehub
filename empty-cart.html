@@ -26,9 +26,11 @@
                 </ul>
             </nav> 
         </header>
+        <h2 class="heading">Checkout</h2>
         <main>
-            <h2>Checkout</h2>
             <p>Your cart is empty</p>
+        </main>    
+        <section class="delivery">
             <form action="empty-cart.php" method="GET"></form>
             <h3>Delivery information</h3>
             <fieldset>
@@ -37,10 +39,12 @@
                 <label for="zip-code">Zip code</label>
                 <input type="number" name="zip-code" id="zip-code" class="form__input">
             </fieldset>
+        </section>
+        <section class="summary">
             <h3>Payment method</h3> 
             <h3>Total: 0$</h3> 
             <input type="submit" value="Order Now">
-        </main>
+        </section>    
         <footer>
             <p class="footer-text">41212546 Gamehub@gmail.com</p>
         </footer>
