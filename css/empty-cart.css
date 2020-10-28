@@ -33,6 +33,10 @@ main{
     min-height: 300px;
 }
 
+form{
+    padding: 10px;
+}
+
 .form__input{
     display: block;
     font-size: 28px; 
