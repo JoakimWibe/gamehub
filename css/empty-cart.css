@@ -25,7 +25,6 @@ body {
 
 h2{
     color: #030D8C;
-    margin: 10px 0px 10px 0px;
 }
 
 h3{
@@ -34,10 +33,6 @@ h3{
 
 .mastercard, .visa, .paypal{
     padding: 10px;
-}
-
-.mastercard:hover, .visa:hover, .paypal:hover{
-    color: #030D8C;
 }
 
 main{
