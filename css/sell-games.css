@@ -66,6 +66,7 @@ section{
 
 #upload-file{
     font-family: 'roboto', Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 2px;
 }
 
 @media (max-width: 600px) {
