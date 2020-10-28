@@ -17,6 +17,9 @@ main{grid-area: main;}
 .summary{grid-area: summary;}
 footer{grid-area: footer;}
 
+main{
+    margin-top: 100px;
+}
 
 h2{
     color: #030D8C;
