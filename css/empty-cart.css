@@ -27,6 +27,7 @@ body {
 
 h2{
     color: #030D8C;
+    margin-top: 50px;
 }
 
 h3{
@@ -41,7 +42,7 @@ main{
 }
 
 .empty-cart{
-    margin-top: 125px;
+    margin-top: 75px;
 }
 
 form{
