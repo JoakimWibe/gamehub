@@ -9,6 +9,11 @@ p{
     justify-content: center;
 }
 
+.footer-text{
+    display: flex;
+    justify-content: start;
+}
+
 @media (max-width: 600px) {
 
     h2{
@@ -19,11 +24,6 @@ p{
 
     p{
         font-size: 22px;
-    }
-
-    .footer-text{
-        display: flex;
-        justify-content: start;
     }
 
 }
