@@ -71,8 +71,7 @@ main{
 }
 
 .searchbar{
-    display: flex;
-    justify-content: end;
+    height: 30px;
 }
 
 @media (max-width: 600px) {
