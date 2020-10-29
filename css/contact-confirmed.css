@@ -3,3 +3,17 @@ h2{
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 600px) {
+
+    h2{
+        margin-top: 200px;
+        text-align: center;
+        font-size: 28px;
+    }
+
+    p{
+        font-size: 22px;
+    }
+
+}
