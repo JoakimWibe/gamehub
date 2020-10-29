@@ -95,6 +95,10 @@ nav a:hover{
     display: block;
 }
 
+.current{
+    text-decoration: underline;
+}
+
 @media(min-width: 600px){
     .logo {
         float: left;
