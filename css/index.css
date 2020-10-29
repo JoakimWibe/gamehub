@@ -70,10 +70,6 @@ main{
     border: 3px solid #030D8C;
 }
 
-.searchbar{
-    height: 30px;
-}
-
 @media (max-width: 600px) {
     body {
         display: grid;
