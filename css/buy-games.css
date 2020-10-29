@@ -86,8 +86,12 @@ h2{
         justify-content: center;
     }
 
-    .browse-new, .browse-used{
+    .browse-new{
         margin-top: 150px;
+    }
+
+    .browse-used{
+        margin-top: 50px;
     }
 
 }
