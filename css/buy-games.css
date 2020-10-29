@@ -14,11 +14,7 @@ body {
     ;
 }
 
-.browse-new{
-    margin-top: 300px;
-}
-
-.browse-used{
+.browse-new, .browse-used{
     margin-top: 300px;
 }
 
@@ -88,6 +84,10 @@ h2{
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .browse-new, .browse-used{
+        margin-top: 100px;
     }
 
 }
