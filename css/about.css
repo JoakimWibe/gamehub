@@ -25,6 +25,7 @@ section {
 h2{
     text-align: center;
     color: #030D8C;
+    font-size: 40px;
 }
 
 @media (max-width: 600px) {
