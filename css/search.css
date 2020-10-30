@@ -1,10 +1,5 @@
-.searchbar{
+#searchfield{
     margin-top: 200px;
     font-size: 28px;
     font-family: 'roboto', Verdana, Geneva, Tahoma, sans-serif;
-}
-
-main{
-    display: flex;
-    justify-content: center;
 }
