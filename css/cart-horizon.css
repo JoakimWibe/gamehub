@@ -17,6 +17,7 @@ body {
     'summary summary'
     'footer footer'
     ;
+    border: none;
 }
 
 .heading{
@@ -47,9 +48,6 @@ main{
     min-height: 200px;
 }
 
-.summary{
-    border: none;
-}
 
 .empty-cart{
     margin-top: 75px;
