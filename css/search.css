@@ -4,11 +4,6 @@
     font-family: 'roboto', Verdana, Geneva, Tahoma, sans-serif;
 }
 
-i{
-    color:  #1B203D;
-    margin-left: 100px;
-}
-
 main{
     display: flex;
     justify-content: center;
