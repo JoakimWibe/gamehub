@@ -6,7 +6,6 @@ body {
     'header header'
     'section section'
     'main aside'
-    'footer footer'
     ;
 }
 
@@ -14,7 +13,6 @@ header{grid-area: header;}
 section{grid-area: section;}
 main{grid-area: main;}
 aside{grid-area: aside;}
-footer{grid-area: footer;}
 
 
 .banner{
