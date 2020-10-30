@@ -19,6 +19,7 @@ h1{
     font-size: 40px;
     color: #030D8C;
     margin-top: 150px;
+    text-align: center;
 }
 
 form{
@@ -72,11 +73,12 @@ section{
 @media (max-width: 600px) {
     
     form{
-        margin-top: 150px;
+        margin-top: 50px;
     }
 
     .form__input{
         width: 350px;
     }
+
 
 }
