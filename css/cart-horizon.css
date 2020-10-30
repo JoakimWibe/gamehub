@@ -33,6 +33,7 @@ h3{
 
 .total{
     margin-bottom: 10px;
+    border: none;
 }
 
 .mastercard, .visa, .paypal{
@@ -46,11 +47,6 @@ main{
     border-bottom: #1B203D 1px solid;
     min-height: 200px;
 }
-
-.delivery{
-    border: none;
-}
-
 
 .empty-cart{
     margin-top: 75px;
