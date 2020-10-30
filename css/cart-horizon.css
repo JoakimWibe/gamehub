@@ -92,6 +92,27 @@ label{
     border: 3px solid #030D8C;
 }
 
+.horizon{
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+#amount, #price{
+    margin-top: 35px;
+}
+
+.game-title{
+    font-size: 22px;
+    margin: 5px;
+}
+
 @media (max-width: 600px) {
 
     .heading{
