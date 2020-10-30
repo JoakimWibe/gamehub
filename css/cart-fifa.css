@@ -104,6 +104,10 @@ label{
     flex-direction: row;
 }
 
+#amount, #price{
+    margin-top: 10px;
+}
+
 @media (max-width: 600px) {
 
     .heading{
