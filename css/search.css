@@ -8,3 +8,9 @@
     height: 30px;
     width: 30px;
 }
+
+.searchbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
