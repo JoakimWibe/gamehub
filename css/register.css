@@ -13,6 +13,11 @@ header{grid-area: header;}
 main{grid-area: main;}
 section{grid-area: section;}
 
+h1{
+    font-size: 40px;
+    color: #030D8C;
+    margin-top: 150px;
+}
 
 form{
     display: flex;
