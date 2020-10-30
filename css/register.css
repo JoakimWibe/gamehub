@@ -4,14 +4,16 @@ body {
     grid-template-rows: auto auto auto auto;
     grid-template-areas: 
     'header header'
+    'heading heading'
     'main main'
-    'section section'
+    'submission submission'
     ;
 }
 
 header{grid-area: header;}
+.heading{grid-area: heading;}
 main{grid-area: main;}
-section{grid-area: section;}
+.submission{grid-area: submission;}
 
 h1{
     font-size: 40px;
