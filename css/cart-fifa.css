@@ -108,6 +108,10 @@ label{
     margin-top: 35px;
 }
 
+.game-title{
+    font-size: 22px;
+}
+
 @media (max-width: 600px) {
 
     .heading{
@@ -119,10 +123,6 @@ label{
     }
 
     p{
-        font-size: 22px;
-    }
-
-    #amount, #price{
         font-size: 22px;
     }
 
