@@ -33,6 +33,12 @@ h3{
     border-radius: 25px;
 }
 
+h1{
+    color: #030D8C;
+    margin: auto;
+    text-align: center;
+}
+
 @media (max-width: 600px) {
 
     main{
