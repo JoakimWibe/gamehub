@@ -7,3 +7,8 @@ i{
     margin: 2px;
     padding-top: 4px;
 }
+
+main{
+    display: flex;
+    justify-content: center;
+}
