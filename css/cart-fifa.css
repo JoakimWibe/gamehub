@@ -96,7 +96,8 @@ img{
     border-radius: 20px;
     width: 100px;
     height: 100px;
-    margin: 20px
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 @media (max-width: 600px) {
