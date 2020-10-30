@@ -6,12 +6,10 @@
 
 i{
     color:  #1B203D;
-    margin: 2px;
-    padding-top: 4px;
+    margin-left: 10px;
 }
 
 main{
     display: flex;
     justify-content: center;
-    flex-direction: row;
 }
