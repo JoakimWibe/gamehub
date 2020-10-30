@@ -18,7 +18,12 @@ main{grid-area: main;}
 main{
     display: flex;
     justify-content: center;
-    margin-top: 300px;
+    margin-top: 100px;
+}
+
+h1{
+    font-size: 32px;
+    color: #030D8C;
 }
 
 section{
