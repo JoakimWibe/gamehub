@@ -17,7 +17,6 @@ body {
     'summary summary'
     'footer footer'
     ;
-    border: none;
 }
 
 .heading{
@@ -46,6 +45,10 @@ main{
     border-top: #1B203D 1px solid;
     border-bottom: #1B203D 1px solid;
     min-height: 200px;
+}
+
+.delivery{
+    border: none;
 }
 
 
