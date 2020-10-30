@@ -110,6 +110,7 @@ label{
 
 .game-title{
     font-size: 22px;
+    margin: 10px;
 }
 
 @media (max-width: 600px) {
