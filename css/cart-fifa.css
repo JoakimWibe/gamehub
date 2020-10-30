@@ -92,12 +92,11 @@ label{
     border: 3px solid #030D8C;
 }
 
-img{
+.fifa{
     border-radius: 20px;
     width: 100px;
     height: 100px;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin: 10px;
 }
 
 @media (max-width: 600px) {
