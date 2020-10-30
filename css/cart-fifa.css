@@ -99,6 +99,11 @@ label{
     margin: 10px;
 }
 
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
 @media (max-width: 600px) {
 
     .heading{
