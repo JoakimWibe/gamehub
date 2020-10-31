@@ -99,4 +99,8 @@ label{
         margin-top: 50px;
     }
 
+    #phone, #mail{
+        display: none;
+    }
+
 }
