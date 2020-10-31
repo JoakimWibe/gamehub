@@ -5,14 +5,14 @@ body {
     grid-template-rows: auto auto auto;
     grid-template-areas: 
     'header header'
-    'main section'
+    'main textfield'
     'footer footer'
     ;
 }
 
 header{grid-area: header;}
 main{grid-area: main;}
-section{grid-area: section;}
+.textfield{grid-area: textfield;}
 footer{grid-area: footer;}
 
 main{
@@ -20,7 +20,7 @@ main{
     padding: 20px;
 }
 
-section {
+.textfield {
     margin-top: 200px;
     padding: 40px;
 }
