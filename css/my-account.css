@@ -21,7 +21,7 @@ footer{grid-area: footer;}
 main{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 h1{
@@ -41,7 +41,7 @@ h3{
 }
 
 #profilepic{
-    border-radius: 25px;
+    border-radius: 50%;
 }
 
 @media (max-width: 600px) {
