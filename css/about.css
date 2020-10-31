@@ -6,12 +6,14 @@ body {
     grid-template-areas: 
     'header header'
     'main section'
+    'footer footer'
     ;
 }
 
 header{grid-area: header;}
 main{grid-area: main;}
 section{grid-area: section;}
+footer{grid-area: footer;}
 
 main{
     margin-top: 300px;
