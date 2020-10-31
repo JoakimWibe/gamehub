@@ -52,8 +52,7 @@ label{
 }
 
 .submission{
-    display: flex;
-    justify-content: center;
+    margin: auto;
 }
 
 .submit{
