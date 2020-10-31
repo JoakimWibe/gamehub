@@ -51,11 +51,11 @@ label{
     margin: 20px;
 }
 
-.submission{
-    margin: auto;
-}
+
 
 .submit{
+    display: flex;
+    justify-content: center;
     background-color: #030D8C;
     width: 260px;
     height: auto;
