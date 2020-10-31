@@ -49,6 +49,7 @@ p{
 .contact{
     display: flex;
     flex-direction: row;
+    margin-top: 50px;
 }
 
 #footer-text-phone, #footer-text-mail{
