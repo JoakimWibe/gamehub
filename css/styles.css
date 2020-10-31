@@ -56,6 +56,11 @@ p{
     font-size: 22px;
 }
 
+#phone, #mail{
+    height: 30px;
+    width: 30px;
+}
+
 .logo{
     max-width: 100px;
     padding: 20px;
