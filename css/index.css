@@ -104,4 +104,8 @@ main{
         margin-top: 0;
     }
 
+    #phone, #mail{
+        display: none;
+    }
+
 }
