@@ -105,6 +105,10 @@ label{
         font-size: 22px;
     }
 
+    .order-now{
+        margin-bottom: 20px;
+    }
+
     #phone, #mail{
         display: none;
     }
