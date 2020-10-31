@@ -49,6 +49,8 @@ p{
 .contact{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
 }
 
 #footer-text-phone, #footer-text-mail{
