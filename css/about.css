@@ -16,12 +16,12 @@ section{grid-area: section;}
 footer{grid-area: footer;}
 
 main{
-    margin-top: 1500px;
+    margin-top: 200px;
     padding: 20px;
 }
 
 section {
-    margin-top: 150px;
+    margin-top: 200px;
     padding: 40px;
 }
 
