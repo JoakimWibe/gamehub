@@ -45,10 +45,15 @@ label{
     font-family: 'russo one';
 }
 
-.submission, .heading{
+.heading{
     display: flex;
     justify-content: center;
     margin: 20px;
+}
+
+.submission{
+    display: flex;
+    justify-content: center;
 }
 
 .submit{
