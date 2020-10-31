@@ -105,4 +105,8 @@ label{
         font-size: 22px;
     }
 
+    #phone, #mail{
+        display: none;
+    }
+
 }
