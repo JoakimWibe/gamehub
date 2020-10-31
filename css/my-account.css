@@ -7,6 +7,7 @@ body {
     'heading heading'
     'main main'
     'info info'
+    'footer footer'
     ;
 }
 
@@ -14,6 +15,7 @@ header{grid-area: header;}
 .heading{grid-area: heading;}
 main{grid-area: main;}
 .info{grid-area: info;}
+footer{grid-area: footer;}
 
 main{
     display: flex;
