@@ -46,10 +46,13 @@ p{
     padding: 10px;
 }
 
-#footer-text-phone, #footer-text-mail{
-    color: #f2f2f2;
+.contact{
     display: flex;
     flex-direction: row;
+}
+
+#footer-text-phone, #footer-text-mail{
+    color: #f2f2f2;
 }
 
 .logo{
