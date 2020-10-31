@@ -67,6 +67,10 @@ fieldset{
     padding: 10px;
 }
 
+.summary{
+    margin-top: 10px;
+}
+
 label{
     font-size: 28px;
     color: #1B203D;
