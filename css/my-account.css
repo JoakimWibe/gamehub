@@ -28,6 +28,8 @@ h1{
     font-size: 40px;
     color: #030D8C;
     margin-top: 150px;
+    display: flex;
+    justify-content: center;
 }
 
 .info{
