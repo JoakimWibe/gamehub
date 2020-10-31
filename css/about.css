@@ -32,6 +32,18 @@ h2{
 }
 
 @media (max-width: 600px) {
+
+    body {
+        min-height: 100vh;
+        display: grid;
+        grid-gap: 0;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas: 
+        'header header'
+        'textfield textfield'
+        'footer footer'
+        ;
+    }
    
     main{
         display: none;
