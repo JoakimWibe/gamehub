@@ -97,10 +97,6 @@ label{
 
 @media (max-width: 600px) {
 
-    .heading{
-        margin-top: 200px;
-    }
-
     label{
         font-size: 22px;
     }
