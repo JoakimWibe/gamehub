@@ -16,12 +16,12 @@ main{grid-area: main;}
 footer{grid-area: footer;}
 
 main{
-    margin-top: 200px;
+    margin-top: 300px;
     padding: 20px;
 }
 
 .textfield {
-    margin-top: 200px;
+    margin-top: 300px;
     padding: 40px;
 }
 
