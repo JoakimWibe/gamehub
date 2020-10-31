@@ -46,6 +46,12 @@ p{
     padding: 10px;
 }
 
+#footer-text-phone, #footer-text-mail{
+    color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+}
+
 .logo{
     max-width: 100px;
     padding: 20px;
