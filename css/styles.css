@@ -108,6 +108,10 @@ nav a:hover{
     text-decoration: underline;
 }
 
+legend{
+    display: none;
+}
+
 @media(min-width: 600px){
     .logo {
         float: left;
