@@ -15,25 +15,25 @@ body {
 header{grid-area: header;}
 .heading{grid-area: heading;}
 main{grid-area: main;}
-.submisson{grid-area: submisson;}
+.submission{grid-area: submission;}
 footer{grid-area: footer;}
 
 h1{
     font-size: 40px;
     color: #030D8C;
     margin-top: 150px;
-    text-align: center;
 }
 
 form{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .form__input{
     display: block;
-    font-size: 28px;    
+    font-size: 28px;
+    width: 500px;    
 }
 
 fieldset{
@@ -46,16 +46,17 @@ label{
     font-family: 'russo one';
 }
 
+
 .heading{
     display: flex;
     justify-content: center;
     margin: 20px;
 }
 
-.submisson{
+.submission{
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin-top: 10px;
 }
 
 .submit{
@@ -81,13 +82,16 @@ label{
 
 @media (max-width: 600px) {
     
+    .form__input{
+        width: 300px;
+    }
+
     form{
         margin-top: 50px;
     }
 
-    .form__input{
-        width: 350px;
+    #phone, #mail{
+        display: none;
     }
-
 
 }
