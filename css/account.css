@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+  margin-top: 120px;
+  color: #1b203d;
+}
+
+h4 {
+  margin-top: 10px;
+}
+
+section {
+  max-width: 500px;
+  margin: 50px auto;
+  margin-bottom: 250px;
+}
+
+.image {
+  background-image: url("../images/Profile-pic.jpg");
+  background-size: cover;
+  max-width: 25%;
+  height: 150px;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: #1b203d;
+}
+
+.user-info {
+  color: #1b203d;
+  margin: 20px 0;
+  text-align: center;
+  margin-bottom: 150px;
+}

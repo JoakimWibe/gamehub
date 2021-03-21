@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="On this page you can create a user account">
-    <title>Register</title>
+    <meta name="description" content="On this page you can complete the checkout">
+    <title>Cart</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/checkout.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -40,44 +40,47 @@
             </nav> 
         </header>
         <main>
-            <section class="heading">
-                <h1>Create an account</h1>
+            <h1>Checkout</h1>
+            <h2>Shopping cart</h2>
+            <hr class="cart-margin">
+            <section class="cart">
+                <div class="products-container">
+                    <div class="products">
+                        <p>The cart is empty</p>
+                    </div>
+                </div>
             </section>
-            <form id="registerForm">
-                <div>
-                    <label class=form-label>
-                        First name (required)
-                        <input type="text" name="firstName" id="firstName" />
-                    </label class=form-label>
-                    <div class="form-error" id="firstNameError">please enter your first name</div>
-                </div>
-    
-                <div>
-                    <label class=form-label>
-                        Last name (required)
-                        <input type="text" name="lastName" id="lastName" />
-                    </label>
-                    <div class="form-error" id="lastNameError">please enter your last name</div>
-                </div>
-    
-                <div>
-                    <label class=form-label>
-                        Email (required)
-                        <input type="email" name="email" id="email" />
-                    </label>
-                    <div class="form-error" id="emailError">Please enter a valid email address</div>
-                </div>
+            <hr class="cart-margin">
+            <section class="payment">
+                <h3>Payment method</h3>
+                <span class="material-icons" id="credit-card">credit_card</span>
+                <span class="material-icons">card_giftcard</span>
+                <span class="material-icons">receipt</span>    
+            </section>
+            <section class="delivery-info">
+                <h3>Delivery information</h3>
+                <form id="deliveryForm">
+                    <div>
+                        <label class=form-label>
+                            address
+                            <input type="address" name="address" id="address" />
+                        </label>
+                        <div class="form-error" id="addressError">address must contain at least 10 characters</div>
+                    </div>
+        
+                    <div>
+                        <label class=form-label>
+                            zip code
+                            <input type="number" name="zipCode" id="zipCode" />
+                        </label>
+                        <div class="form-error" id="zipCodeError">zip code must contain 4 numbers</div>
+                    </div>
 
-                <div>
-                    <label class=form-label>
-                        Create a password (required)
-                        <input type="password" name="password" id="password" />
-                    </label>
-                    <div class="form-error" id="passwordError">password must contain at least 6 characters</div>
-                </div>
-    
-                <button class="register-btn">Register</button>
-            </form>
+                    <button class="order-btn">Place order</button>
+
+                    <div id="success">Your order has been successfully placed</div>
+
+            </section>
         </main>
         <footer>
             <div class="contact">
@@ -94,6 +97,6 @@
             </div>
         </footer>
         <script src="js/script.js"></script>
-        <script src="js/register.js"></script>
+        <script src="js/checkout-validation.js"></script>    
     </body>
-</html>    
+</html> 

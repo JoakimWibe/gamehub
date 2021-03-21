@@ -1,111 +1,102 @@
-body {
-    min-height: 100vh;
-    display: grid;
-    grid-gap: 0;
-    grid-template-rows: auto auto 1fr auto;
-    grid-template-areas: 
-    'header header'
-    'section section'
-    'main aside'
-    'footer footer'
-    ;
+.banner {
+  margin-top: 80px;
+  background: url("../images/banner.jpg");
+  background-size: cover;
+  max-width: 100%;
+  height: 500px;
 }
 
-header{grid-area: header;}
-section{grid-area: section;}
-main{grid-area: main;}
-aside{grid-area: aside;}
-footer{grid-area: footer;}
-
-
-.banner{
-    background-image: url('../images/background_home.png');
-    margin-top: 100px;
-    min-height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
+.banner h1 {
+  text-align: center;
+  color: white;
+  padding-top: 150px;
 }
 
-.headline{
-    display: flex;
-    justify-content: center;
-    padding-top: 160px;
+.c2a-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.buy-sell-buttons {
+  padding: 15px;
+  margin-left: 20px;
+  width: 150px;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-family: glitch, sans-serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+#buy-button,
+#sell-button {
+  background: #596ac9;
+}
+
+#sell-button:hover,
+#buy-button:hover {
+  background: #1b203d;
+}
+
+.explore-latest-titles h2 {
+  color: #1b203d;
+  padding: 20px;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.game-card {
+  margin: 40px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px #888888;
+  height: 460px;
+}
+
+.game-cover {
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+}
+
+.add-cart {
+  padding: 10px;
+  margin: 5px;
+  font-family: glitch, sans-serif;
+  background: #596ac9;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.add-cart:hover {
+  color: white;
+  background: #1b203d;
+}
+
+.game-card h3 {
+  margin: 20px 10px;
+  text-transform: uppercase;
+  color: #1b203d;
+}
+
+@media (max-width: 858px) {
+  h1 {
+    padding: 10px;
+  }
+
+  .explore-latest-titles h2 {
     text-align: center;
-}
-
-h2{
-    text-align: center;
-    margin-top: 2em;
-}
-
-main{
-    margin-top: 8em;
-}
-
-.products{
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    padding: 40px;
-}
-
-.buy-games, .sell-games{
-    background-color: #030D8C;
-    width: 260px;
-    height: auto;
-    margin: 10px;
-    padding: 3px 0;
-    color: #f2f2f2;
-    font-family: 'russo one', sans-serif;
-    text-decoration: none;
-    font-size: 32px;
-    text-align: center;
-    border: 3px solid #030D8C;
-    border-radius: 15px; 
-}
-
-
-.buy-games:hover, .sell-games:hover{
-    background-color: #f2f2f2;
-    color: #030D8C;
-    border: 3px solid #030D8C;
-}
-
-@media (max-width: 600px) {
-    body {
-        display: grid;
-        grid-gap: 0;
-        grid-template-rows: auto auto auto auto auto;
-        grid-template-areas: 
-        'header header'
-        'section section'
-        'aside aside'
-        'main main'
-        'footer footer'
-        ;
-    }
-
-    .products{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
-
-    h1 {
-        font-size: 36px;
-    }
-
-    h2 {
-        margin-top: 10px;
-        font-size: 28px;
-    }
-
-    main {
-        margin-top: 0;
-    }
-
-    #phone, #mail{
-        display: none;
-    }
-
+  }
 }

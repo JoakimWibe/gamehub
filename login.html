@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="On this page you can create a user account">
-    <title>Register</title>
+    <meta name="description" content="On this page you can access your user account">
+    <title>Log in</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/login.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -40,44 +40,34 @@
             </nav> 
         </header>
         <main>
-            <section class="heading">
-                <h1>Create an account</h1>
-            </section>
-            <form id="registerForm">
-                <div>
-                    <label class=form-label>
-                        First name (required)
-                        <input type="text" name="firstName" id="firstName" />
-                    </label class=form-label>
-                    <div class="form-error" id="firstNameError">please enter your first name</div>
-                </div>
-    
-                <div>
-                    <label class=form-label>
-                        Last name (required)
-                        <input type="text" name="lastName" id="lastName" />
-                    </label>
-                    <div class="form-error" id="lastNameError">please enter your last name</div>
-                </div>
-    
-                <div>
-                    <label class=form-label>
-                        Email (required)
-                        <input type="email" name="email" id="email" />
-                    </label>
-                    <div class="form-error" id="emailError">Please enter a valid email address</div>
-                </div>
+            <h1>My account</h1>
+            <section class="log-in">
+                <form id="loginForm">
+                    <h2>Log in</h2>
+            
+                    <div>
+                        <label class=form-label>
+                            Email
+                            <input type="email" name="email" id="email" />
+                        </label>
+                        <div class="form-error" id="emailError">please enter a valid email</div>
+                    </div>
 
-                <div>
-                    <label class=form-label>
-                        Create a password (required)
-                        <input type="password" name="password" id="password" />
-                    </label>
-                    <div class="form-error" id="passwordError">password must contain at least 6 characters</div>
-                </div>
-    
-                <button class="register-btn">Register</button>
-            </form>
+                    <div>
+                        <label class=form-label>
+                            Password
+                            <input type="password" name="password" id="password" />
+                        </label>
+                        <div class="form-error" id="passwordError">password must contain at least 6 characters</div>
+                    </div>
+
+                    <button class="login-btn">Log in</button>
+
+                    <div class="register-btn">
+                        <p>dont have an account? <a href="register.html">register here</a></p>
+                    </div>
+                </form>
+            </section>
         </main>
         <footer>
             <div class="contact">
@@ -94,6 +84,6 @@
             </div>
         </footer>
         <script src="js/script.js"></script>
-        <script src="js/register.js"></script>
+        <script src="js/login.js"></script>      
     </body>
 </html>    

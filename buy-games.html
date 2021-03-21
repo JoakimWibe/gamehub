@@ -1,84 +1,125 @@
-<!doctype html>
-<html>
-    <head>
-        <title>buy games</title>
-        <meta name="description" content="this is the product page">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <link href="css/styles.css" rel="stylesheet">
-        <link href="css/buy-games.css" rel="stylesheet">
-    </head> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="On this page you can browse our latest games">
+    <title>Buy games</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/buy-games.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
     <body>
         <header>
-            <img src="images/logo.png" alt="logo" class="logo">
-            <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
-            <input type="checkbox" id="hamburger-menu"> 
             <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa fa-bars"></i>
+                </label>
+                <a href="index.html"><img src="images/GameHub_Logo.png" alt="logo" class="logo"></a>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="my-account.html">My account</a></li>
-                    <li><a href="register.html">Register</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="empty-cart.html">Shopping cart</a></li>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="buy-games.html" class="current">buy games</a></li>
+                    <li><a href="sell-games.html">sell games</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li class="account">
+                        <a href="login.html">
+                            <span class="material-icons">perm_identity</span>
+                        </a>
+                    </li>            
+                    <li class="cart">
+                        <a href="cart.html">
+                            <span class="material-icons">shopping_basket</span><span class="counter">0</span>
+                        </a>
+                    </li>
                 </ul>
             </nav> 
         </header>
-        <section class="browse-new">
-            <h2>Browse new games</h2>
-            <div class="fifa-section">
-                <div class="fifa-area">
-                    <img src="images/fifa.png" alt="fifa" class="fifa">
-                    <h3>Fifa 20</h3>
-                    <p>49$</p>
-                    <a href="cart-fifa.html" class="pre-order-now">Pre-order now</a>
+        <main>
+            <h1>Buy games</h1>
+            <section class="games">
+                <div class="game-container">
+                    <div class="game-card">
+                        <img src="images/assets/GameHub_covers.jpg" alt="ping pong championship cover" class="game-cover">
+                        <h3>Ping pong championship</h3>
+                        <h3>49$</h3>
+                        <a class="add-cart cart1"  href="#">Add to cart</a>
+                    </div>
+                    <div class="game-card">
+                        <img src="images/assets/GameHub_covers2.jpg" alt="super duper cover" class="game-cover">
+                        <h3>Super duper</h3>
+                        <h3>29$</h3>
+                        <a class="add-cart cart2" href="#">Add to cart</a>
+                    </div>
+                    <div class="game-card">
+                        <img src="images/assets/GameHub_covers3.jpg" alt="black cover" class="game-cover">
+                        <h3>Black</h3>
+                        <h3>49$</h3>
+                        <a class="add-cart cart3" href="#">Add to cart</a>
+                    </div>
+                    <div class="game-card">
+                        <img src="images/assets/GameHub_covers4.jpg" alt="furious cover" class="game-cover">
+                        <h3>Furious</h3>
+                        <h3>59$</h3>
+                        <a class="add-cart cart4" href="#">Add to cart</a>
+                    </div>
+                    <div class="game-card">
+                        <img src="images/assets/GameHub_covers5.jpg" alt="assassin cover" class="game-cover">
+                        <h3>Assassin</h3>
+                        <h3>49$</h3>
+                        <a class="add-cart cart5" href="#">Add to cart</a>
+                    </div>
+                    <div class="game-card">
+                        <img src="images/assets/GameHub_covers6.jpg" alt="space war cover" class="game-cover">
+                        <h3>Space war</h3>
+                        <h3>49$</h3>
+                        <a class="add-cart cart6" href="#">Add to cart</a>
+                    </div>
+                    <div class="game-card">
+                        <img src="images/assets/GameHub_covers7.jpg" alt="racing cover" class="game-cover">
+                        <h3>Racing</h3>
+                        <h3>59$</h3>
+                        <a class="add-cart cart7" href="#">Add to cart</a>
+                    </div>
+                    <div class="game-card">
+                        <img src="images/assets/GameHub_covers8.jpg" alt="boxer cover" class="game-cover">
+                        <h3>Boxer</h3>
+                        <h3>29$</h3>
+                        <a class="add-cart cart8" href="#">Add to cart</a>
+                    </div>
+                    <div class="game-card">
+                        <img src="images/assets/GameHub_covers9.jpg" alt="cyberpunk cover" class="game-cover">
+                        <h3>Cyberpunk</h3>
+                        <h3>49$</h3>
+                        <a class="add-cart cart9" href="#">Add to cart</a>
+                    </div>
+                    <div class="game-card">
+                        <img src="images/assets/GameHub_covers10.jpg" alt="forge legend cover" class="game-cover">
+                        <h3>Forge legend</h3>
+                        <h3>49$</h3>
+                        <a class="add-cart cart10" href="#">Add to cart</a>
+                    </div>
                 </div>
-                <div class="fifa-area">
-                    <img src="images/fifa.png" alt="fifa" class="fifa">
-                    <h3>Fifa 20</h3>
-                    <p>49$</p>
-                    <a href="cart-fifa.html" class="pre-order-now">Pre-order now</a>
-                </div>
-                <div class="fifa-area">
-                    <img src="images/fifa.png" alt="fifa" class="fifa">
-                    <h3>Fifa 20</h3>
-                    <p>49$</p>
-                    <a href="cart-fifa.html" class="pre-order-now">Pre-order now</a>
-                </div>
-            </div>
-        </section>    
-        <section class="browse-used">
-            <h2>Browse used games</h2>
-            <div class="horizon-section">
-                <div class="horizon-area">
-                    <img src="images/horizon.png" alt="horizon" class="horizon">
-                    <h3>Horizon 4</h3>
-                    <p>25$</p>
-                    <a href="cart-horizon.html" class="add-to-cart">Add to cart</a>
-                </div>
-                <div class="horizon-area">
-                    <img src="images/horizon.png" alt="horizon" class="horizon">
-                    <h3>Horizon 4</h3>
-                    <p>25$</p>
-                    <a href="cart-horizon.html" class="add-to-cart">Add to cart</a>
-                </div>
-                <div class="horizon-area">
-                   <img src="images/horizon.png" alt="horizon" class="horizon">
-                    <h3>Horizon 4</h3>
-                    <p>25$</p>
-                    <a href="cart-horizon.html" class="add-to-cart">Add to cart</a>
-                </div>
-            </div>
-        </section>
-        <footer>
-            <section class="contact">
-                <p id="footer-text-phone">41219887</p>
-                <img src="images/phone.png" alt="phone" id="phone">
-                <p id="footer-text-mail">gamehub@gmail.com</p>
-                <img src="images/mail.png" alt="mail" id="mail">
             </section>
+        </main>
+        <footer>
+            <div class="contact">
+                <h4>stay in touch with us</h4>
+                <p class="email">Email: gamehub@gmail.com</p>
+                <p class="phone">Phone: +47909876</p>
+                <a href="contact.html" class="contact-footer">Contact</a>
+            </div>
+            <div class="faq">
+                <h4>Frequently asked questions</h4>
+                <a href="#" class="returns">Returns</a>
+                <a href="#" class="terms">Terms of use</a>
+                <a href="#" class="warranty">Warranty</a>
+            </div>
         </footer>
+        <script src="js/script.js"></script>
     </body>
 </html>    

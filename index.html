@@ -1,54 +1,101 @@
-<!doctype html>
-<html>
-    <head>
-        <title>home page</title>
-        <meta name="description" content="this is the home page">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <link href="css/styles.css" rel="stylesheet">
-        <link href="css/index.css" rel="stylesheet">
-    </head> 
-    <body>
-        <header>
-            <img src="images/logo.png" alt="logo" class="logo">
-            <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
-            <input type="checkbox" id="hamburger-menu"> 
-            <nav>
-                <ul>
-                    <li><a class="current" href="index.html">Home</a></li>
-                    <li><a href="my-account.html">My account</a></li>
-                    <li><a href="register.html">Register</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="empty-cart.html">Shopping cart</a></li>
-                </ul>
-            </nav> 
-        </header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gamehub is a website where you can buy the latest games or sell your own games">
+    <title>Gamehub</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa fa-bars"></i>
+            </label>
+            <a href="index.html"><img src="images/GameHub_Logo.png" alt="logo" class="logo"></a>
+            <ul>
+                <li><a href="index.html" class="current">home</a></li>
+                <li><a href="buy-games.html">buy games</a></li>
+                <li><a href="sell-games.html">sell games</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="about.html">about</a></li>
+                <li class="account">
+                    <a href="login.html">
+                        <span class="material-icons" id="account-icon">perm_identity</span>
+                    </a>
+                </li>            
+                <li class="cart">
+                    <a href="cart.html">
+                        <span class="material-icons" id="basket-icon">shopping_basket</span><span class="counter">0</span>
+                    </a>
+                </li>
+            </ul>
+        </nav> 
+    </header>
+    <main>
         <section class="banner">
-            <div class="headline">
-                <h1>The Universe Of Games</h1>
+            <h1>the universe of games</h1>
+            <div class="c2a-container">
+                <a href="buy-games.html"><button class="buy-sell-buttons" id="buy-button">buy games</button></a>
+                <a href="sell-games.html"><button class="buy-sell-buttons" id="sell-button">sell games</button></a>
+        </section>
+        <section class="explore-latest-titles">
+            <h2>Explore our latest titles</h2>
+            <div class="game-container">
+                <div class="game-card">
+                    <img src="images/assets/GameHub_covers.jpg" alt="ping pong championship cover" class="game-cover">
+                    <h3>Ping pong championship</h3>
+                    <h3>49$</h3>
+                    <a class="add-cart cart1"  href="#">Add to cart</a>
+                </div>
+                <div class="game-card">
+                    <img src="images/assets/GameHub_covers2.jpg" alt="super duper cover" class="game-cover">
+                    <h3>Super duper</h3>
+                    <h3>29$</h3>
+                    <a class="add-cart cart2" href="#">Add to cart</a>
+                </div>
+                <div class="game-card">
+                    <img src="images/assets/GameHub_covers3.jpg" alt="black cover" class="game-cover">
+                    <h3>Black</h3>
+                    <h3>49$</h3>
+                    <a class="add-cart cart3" href="#">Add to cart</a>
+                </div>
+                <div class="game-card">
+                    <img src="images/assets/GameHub_covers4.jpg" alt="furious cover" class="game-cover">
+                    <h3>Furious</h3>
+                    <h3>59$</h3>
+                    <a class="add-cart cart4" href="#">Add to cart</a>
+                </div>
+                <div class="game-card">
+                    <img src="images/assets/GameHub_covers5.jpg" alt="assassin cover" class="game-cover">
+                    <h3>Assassin</h3>
+                    <h3>49$</h3>
+                    <a class="add-cart cart5" href="#">Add to cart</a>
+                </div>
             </div>
         </section>
-        <main>
-            <div class="products">
-                <a href="buy-games.html" class="buy-games">BUY GAMES</a>
-                <a href="sell-games.html" class="sell-games">SELL GAMES</a>
-            </div>
-        </main>
-        <aside>
-            <h2>Support a fellow gamer</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed turpis accumsan, sodales metus eu, tincidunt leo. Praesent ornare mollis metus, non fermentum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed turpis accumsan, sodales metus eu, tincidunt leo. Praesent ornare mollis metus, non fermentum. raesent ornare mollis metus, non fermentum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed turpis accumsan, sodales metus eu, tincidunt leo. Praesent ornare mollis metus, non fermentum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed turpis accumsan, sodales metus eu, tincidunt leo. Praesent ornare mollis metus, non fermentum. raesent ornare mollis metus, non fermentum. raesent ornare mollis metus, non fermentum.</p>
-        </aside>
-        <footer>
-            <section class="contact">
-                <p id="footer-text-phone">41219887</p>
-                <img src="images/phone.png" alt="phone" id="phone">
-                <p id="footer-text-mail">gamehub@gmail.com</p>
-                <img src="images/mail.png" alt="mail" id="mail">
-            </section>
-        </footer>
-    </body>
-</html>    
+    </main>
+    <footer>
+        <div class="contact">
+            <h4>stay in touch with us</h4>
+            <p class="email">Email: gamehub@gmail.com</p>
+            <p class="phone">Phone: +47909876</p>
+            <a href="contact.html" class="contact-footer">Contact</a>
+        </div>
+        <div class="faq">
+            <h4>Frequently asked questions</h4>
+            <a href="#" class="returns">Returns</a>
+            <a href="#" class="terms">Terms of use</a>
+            <a href="#" class="warranty">Warranty</a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

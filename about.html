@@ -1,55 +1,80 @@
-<!doctype html>
-<html>
-    <head>
-        <title>about</title>
-        <meta name="description" content="this is the page where you can read about gamehub">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <link href="css/styles.css" rel="stylesheet">
-        <link href="css/about.css" rel="stylesheet">
-    </head> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gamehub is a website where you can buy the latest games or sell your own games">
+    <title>About</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
     <body>
         <header>
-            <img src="images/logo.png" alt="logo" class="logo">
-            <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
-            <input type="checkbox" id="hamburger-menu"> 
             <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa fa-bars"></i>
+                </label>
+                <a href="index.html"><img src="images/GameHub_Logo.png" alt="logo" class="logo"></a>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="my-account.html">My account</a></li>
-                    <li><a href="register.html">Register</a></li>
-                    <li><a class="current" href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="empty-cart.html">Shopping cart</a></li>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="buy-games.html">buy games</a></li>
+                    <li><a href="sell-games.html">sell games</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="about.html" class="current">about</a></li>
+                    <li class="account">
+                        <a href="login.html">
+                            <span class="material-icons">perm_identity</span>
+                        </a>
+                    </li>            
+                    <li class="cart">
+                        <a href="cart.html">
+                            <span class="material-icons">shopping_basket</span><span class="counter">0</span>
+                        </a>
+                    </li>
                 </ul>
             </nav> 
         </header>
         <main>
-            <img src="images/big_logo.png" alt="The company logo." id="logo">
-        </main>
-        <section class="textfield">
-            <h2>About us</h2>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-                sed diam nonumy eirmod tempor invidunt ut labore et dolo
-                re magna aliquyam erat, sed diam voluptuade ehdfe dfdfdf
-                orem ipsum dolor sit amet, consetetur sadipscing elitr 
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-                sed diam nonumy eirmod tempor invidunt ut labore et dolo
-                re magna aliquyam erat, sed diam voluptuade ehdfe dfdfdf
-                orem ipsum dolor sit amet, consetetur sadipscing elitr
-              </p>
-        </section>
-        <footer>
-            <section class="contact">
-                <p id="footer-text-phone">41219887</p>
-                <img src="images/phone.png" alt="phone" id="phone">
-                <p id="footer-text-mail">gamehub@gmail.com</p>
-                <img src="images/mail.png" alt="mail" id="mail">
+            <section class="heading">
+                <h1>About us</h1>
             </section>
+            <section class="paragraphs">
+                <div class="image"></div>
+                <h2>Support a fellow gamer</h2>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+                    sed diam nonumy eirmod tempor invidunt ut labore et dolo
+                    re magna aliquyam erat, sed diam voluptuade ehdfe dfdfdf
+                    orem ipsum dolor sit amet, consetetur sadipscing elitr 
+                  </p>
+                  <br>
+                  <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+                    sed diam nonumy eirmod tempor invidunt ut labore et dolo
+                    re magna aliquyam erat, sed diam voluptuade ehdfe dfdfdf
+                    orem ipsum dolor sit amet, consetetur sadipscing elitr
+                  </p>
+            </section>
+        </main>
+        <footer>
+            <div class="contact">
+                <h4>stay in touch with us</h4>
+                <p class="email">Email: gamehub@gmail.com</p>
+                <p class="phone">Phone: +47909876</p>
+                <a href="contact.html" class="contact-footer">Contact</a>
+            </div>
+            <div class="faq">
+                <h4>Frequently asked questions</h4>
+                <a href="#" class="returns">Returns</a>
+                <a href="#" class="terms">Terms of use</a>
+                <a href="#" class="warranty">Warranty</a>
+            </div>
         </footer>
+        <script src="js/script.js"></script>
     </body>
 </html>    

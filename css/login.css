@@ -1,35 +1,23 @@
-h1 {
-  margin-top: 120px;
-  text-transform: uppercase;
-}
-
-.heading p,
-h1 {
+h1,
+h2 {
   color: #1b203d;
+}
+
+h1 {
   text-align: center;
+  margin-top: 120px;
 }
 
-.heading {
-  margin: 50px auto;
-  width: 450px;
-}
-
-.form-error {
-  display: none;
-  color: red;
-}
-
-#contactForm {
+#loginForm {
   max-width: 400px;
-  margin: 50px auto;
+  margin: 100px auto;
 }
 
 form {
   border-radius: 1rem;
 }
 
-input,
-textarea {
+input {
   width: 100%;
   margin-top: 2px;
   padding: 10px;
@@ -37,7 +25,7 @@ textarea {
   border: 1px solid #1b203d;
 }
 
-.submit-btn {
+.login-btn {
   font-family: glitch, sans-serif;
   background: #596ac9;
   border: none;
@@ -45,13 +33,12 @@ textarea {
   padding: 1em;
   color: white;
   margin-top: 20px;
-  margin-left: 100px;
   cursor: pointer;
   transition: all 0.5s;
   border-radius: 0.2em;
 }
 
-.submit-btn:hover {
+.login-btn:hover {
   background: #1b203d;
 }
 
@@ -61,13 +48,19 @@ textarea {
   color: #1b203d;
 }
 
-@media (max-width: 450px) {
-  #contactForm {
-    max-width: 300px;
-  }
+.form-error {
+  display: none;
+  color: red;
+}
 
-  .submit-btn {
-    margin: 20px 50px;
+.register-btn {
+  margin-bottom: 200px;
+  margin-top: 20px;
+}
+
+@media (max-width: 450px) {
+  #loginForm {
+    max-width: 300px;
   }
 
   .heading {
