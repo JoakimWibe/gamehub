@@ -6,9 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This is the page where the user can see the individual products">
     <title>Product</title>
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/product.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Hotjar Tracking Code for https://optimistic-raman-5904dd.netlify.app -->
+    <script>
+        (function(h,o,t,j,a,r){
+           h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+           h._hjSettings={hjid:2308305,hjsv:6};
+           a=o.getElementsByTagName('head')[0];
+           r=o.createElement('script');r.async=1;
+           r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+           a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa fa-bars"></i>
+            </label>
+            <a href="index.html"><img src="images/GameHub_Logo.png" alt="logo" class="logo"></a>
+            <ul>
+                <li><a href="index.html" class="current">home</a></li>
+                <li><a href="buy-games.html">buy games</a></li>
+                <li><a href="sell-games.html">sell games</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="about.html">about</a></li>
+                <li class="account">
+                    <a href="login.html">
+                        <span class="material-icons" id="account-icon">perm_identity</span>
+                    </a>
+                </li>            
+                <li class="cart">
+                    <a href="cart.html">
+                        <span class="material-icons" id="basket-icon">shopping_basket</span><span class="counter">0</span>
+                    </a>
+                </li>
+            </ul>
+        </nav> 
+    </header>
+    <section class="game">
+        <div class="details-container"></div>
+    </section>
+    <footer>
+        <div class="contact">
+            <h4>stay in touch with us</h4>
+            <p class="email">Email: gamehub@gmail.com</p>
+            <p class="phone">Phone: +47909876</p>
+            <a href="contact.html" class="contact-footer">Contact</a>
+        </div>
+        <div class="faq">
+            <h4>Frequently asked questions</h4>
+            <a href="#" class="returns">Returns</a>
+            <a href="#" class="terms">Terms of use</a>
+            <a href="#" class="warranty">Warranty</a>
+        </div>
+    </footer>
+    <script src="js/details.js"></script>
 </body>
 </html>

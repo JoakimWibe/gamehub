@@ -22,10 +22,6 @@ getGames();
 
 function createHTML(games) {
     for (let i = 0; i < games.length; i++) {
-        
-        if (i === 6) {
-            break;
-        }
 
         gameContainer.innerHTML += `<a href="product.html?id=${games[i].id}" class="card">
                                             <div class="image" style="background-image: url(${games[i].images.src})"></div>

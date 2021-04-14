@@ -53,7 +53,7 @@
   flex-wrap: wrap;
 }
 
-.game-card {
+.card {
   margin: 40px;
   background: white;
   border-radius: 5px;
@@ -83,6 +83,12 @@
 .add-cart:hover {
   color: white;
   background: #1b203d;
+}
+
+.image {
+  height: 291px;
+  min-width: 291px;
+  background-repeat: no-repeat;
 }
 
 .game-card h3 {

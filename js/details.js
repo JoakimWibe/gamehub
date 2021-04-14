@@ -6,7 +6,7 @@ const params = new URLSearchParams(queryString);
 
 const id = params.get("id");
 
-const url = "" + id;
+const url = "https://gamehub-api.wibedev.com/wp-json/wc/store/products/" + id;
 
 async function fetchGame() {
 
@@ -17,7 +17,7 @@ async function fetchGame() {
         createHTML(details);
     }
     catch (error) {
-        detailContainer.innerHTML = message("error", error);
+        detailContainer.innerHTML = error;
     }
 }
 
@@ -28,9 +28,8 @@ function createHTML(details) {
     document.title = details.name;
 
     detailContainer.innerHTML = `<h1 class="details-name">${details.name}</h1>
-                                <div class="details-image" style="background-image: url(${details.image.medium})"></div>
-                                <div class="details-summary">${details.summary}</div>
-                                <div class="details-rating">Rating: ${details.rating.average}</div>
-                                <div class="details-genre">Genres: ${details.genres}</div>`;                    
+                                <div class="details-image" style="background-image: url(${details.images.src})"></div>
+                                <h2 class="price">Price: ${details.prices.price}</h2>
+                                <p class="description">${details.description}</p>`;                    
 }
 
