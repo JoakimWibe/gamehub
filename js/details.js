@@ -15,6 +15,8 @@ async function fetchGame() {
         const details = await response.json();
 
         createHTML(details);
+
+        console.log(details);
     }
     catch (error) {
         detailContainer.innerHTML = error;
@@ -29,7 +31,6 @@ function createHTML(details) {
 
     detailContainer.innerHTML = `<h1 class="details-name">${details.name}</h1>
                                 <div class="details-image" style="background-image: url(${details.images.src})"></div>
-                                <h2 class="price">Price: ${details.prices.price}</h2>
-                                <p class="description">${details.description}</p>`;                    
+                                <p class="description">${details.description}</p>
+                                <h2 class="price">Price: ${details.prices.price}$</h2>`;                    
 }
-

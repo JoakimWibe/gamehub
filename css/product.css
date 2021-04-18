@@ -1,3 +1,41 @@
 .game {
-  margin-top: 100px;
+  margin: 200px auto;
+  max-width: 500px;
+}
+
+.details-image {
+  height: 295px;
+  min-width: 210px;
+  background-repeat: no-repeat;
+  margin: 1em;
+}
+
+h1,
+h2 {
+  color: #1b203d;
+  text-align: center;
+}
+
+.price {
+  margin: 20px;
+}
+
+.add-cart {
+  padding: 10px;
+  margin: 20px auto;
+  font-family: glitch, sans-serif;
+  background: #596ac9;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  width: 150px;
+}
+
+.add-cart:hover {
+  color: white;
+  background: #1b203d;
 }

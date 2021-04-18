@@ -59,41 +59,24 @@
   border-radius: 5px;
   box-shadow: 2px 2px 2px 2px #888888;
   height: 460px;
+  width: 300px;
 }
 
-.game-cover {
-  width: 250px;
-  height: 300px;
-  padding: 10px;
-}
-
-.add-cart {
-  padding: 10px;
-  margin: 5px;
-  font-family: glitch, sans-serif;
-  background: #596ac9;
-  color: white;
-  text-decoration: none;
-  border-radius: 50px;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: all 0.5s;
-}
-
-.add-cart:hover {
-  color: white;
-  background: #1b203d;
+.card:hover {
+  box-shadow: 7px 7px 7px 7px #888888;
 }
 
 .image {
-  height: 291px;
-  min-width: 291px;
+  height: 295px;
+  min-width: 210px;
   background-repeat: no-repeat;
+  margin: 1em;
 }
 
-.game-card h3 {
-  margin: 20px 10px;
-  text-transform: uppercase;
+.name,
+.price {
+  text-align: center;
+  text-decoration: none;
   color: #1b203d;
 }
 

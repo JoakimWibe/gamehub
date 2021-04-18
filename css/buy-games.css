@@ -11,18 +11,31 @@ h1 {
   flex-wrap: wrap;
 }
 
-.game-card {
+.card {
   margin: 40px;
   background: white;
   border-radius: 5px;
   box-shadow: 2px 2px 2px 2px #888888;
   height: 460px;
+  width: 300px;
 }
 
-.game-cover {
-  width: 250px;
-  height: 300px;
-  padding: 10px;
+.card:hover {
+  box-shadow: 7px 7px 7px 7px #888888;
+}
+
+.image {
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 300px;
+  min-width: 250px;
+}
+
+.name,
+.price {
+  text-align: center;
+  text-decoration: none;
+  color: #1b203d;
 }
 
 .add-cart {
@@ -41,10 +54,4 @@ h1 {
 .add-cart:hover {
   color: white;
   background: #1b203d;
-}
-
-.game-card h3 {
-  margin: 20px 10px;
-  text-transform: uppercase;
-  color: #1b203d;
 }

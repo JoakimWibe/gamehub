@@ -23,7 +23,7 @@ getGames();
 function createHTML(games) {
     for (let i = 0; i < games.length; i++) {
         
-        if (i === 6) {
+        if (i === 4) {
             break;
         }
 
@@ -31,7 +31,7 @@ function createHTML(games) {
                                             <div class="image" style="background-image: url(${games[i].images.src})"></div>
                                             <div class="details">
                                                 <h2 class="name">${games[i].name}</h2>
-                                                <h3 class="name">Price: ${games[i].prices.price}$</h3>                                                                                                                                                          
+                                                <h3 class="price">Price: ${games[i].prices.price}$</h3>                                                                                                                                                
                                             </div>
                                       </a>`;
     }
