@@ -24,7 +24,7 @@ function createHTML(games) {
     for (let i = 0; i < games.length; i++) {
 
         gameContainer.innerHTML += `<a href="product.html?id=${games[i].id}" class="card">
-                                            <div class="image" style="background-image: url(${games[i].images.src})"></div>
+                                            <div class="image" style="background-image: url(${games[i].images[0].src})"></div>
                                             <div class="details">
                                                 <h2 class="name">${games[i].name}</h2>
                                                 <h3 class="name">Price: ${games[i].prices.price}$</h3>                                                                                                                                                          

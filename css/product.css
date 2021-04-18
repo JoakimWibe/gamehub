@@ -4,14 +4,11 @@
 }
 
 .details-image {
-  height: 295px;
-  min-width: 210px;
   background-repeat: no-repeat;
-  margin: 1em;
-}
-
-.description {
-  padding: 20px;
+  background-size: cover;
+  height: 400px;
+  width: 300px;
+  margin: 1em auto;
 }
 
 h1,
