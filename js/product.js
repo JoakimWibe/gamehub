@@ -15,8 +15,7 @@ async function fetchGame() {
         const details = await response.json();
 
         createHTML(details);
-
-        console.log(details);
+        
     }
     catch (error) {
         detailContainer.innerHTML = error;

@@ -88,6 +88,11 @@ hr {
   height: 60px;
 }
 
+.account i,
+.cart i {
+  font-size: 18px;
+}
+
 .current,
 a:hover {
   color: #596ac9;
