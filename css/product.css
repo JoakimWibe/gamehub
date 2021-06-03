@@ -1,29 +1,35 @@
+h1,
+h2 {
+  color: #1b203d;
+}
+
 .game {
   margin: 200px auto;
-  max-width: 500px;
+  max-width: 1000px;
+  box-shadow: 2px 2px 2px 2px #888888;
+  padding: 20px;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
 }
 
 .details-image {
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
-  width: 300px;
+  min-width: 300px;
   margin: 1em auto;
 }
 
-h1,
-h2 {
-  color: #1b203d;
-  text-align: center;
-}
-
 .price {
-  margin: 20px;
+  margin: 20px 0;
 }
 
 .add-cart {
   padding: 10px;
-  margin: 20px auto;
   font-family: glitch, sans-serif;
   background: #596ac9;
   color: white;
@@ -39,4 +45,33 @@ h2 {
 .add-cart:hover {
   color: white;
   background: #1b203d;
+}
+
+@media (max-width: 858px) {
+  .details-container {
+    flex-direction: column;
+  }
+
+  .game {
+    margin: 100px 20px;
+  }
+
+  .details-image {
+    margin: 0.5em auto;
+  }
+
+  h1,
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .add-cart {
+    margin: 0 auto;
+  }
+
+  .game p {
+    width: 300px;
+    margin: 0 auto;
+  }
 }
